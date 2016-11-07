@@ -7,3 +7,6 @@ script:
 branches:
   only:
     - develop
+test:
+  override:
+    - echo "test"
